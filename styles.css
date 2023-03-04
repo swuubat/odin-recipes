@@ -1,3 +1,31 @@
-body {
-    background-color:bisque;
+body 
+{
+    background-color:#FBDDCB;
+    text-align: center;
+    color:#7A0A21;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.featured .link {
+  flex:1;
+}
+.link
+{ 
+    color: #E60104;
+    background-color: white;
+    padding: 10px;
+    padding-top: 150px;
+}
+.heading
+{
+    padding: 25px;
+    background-color: #FF8262;
+    margin: -10px;
 }
